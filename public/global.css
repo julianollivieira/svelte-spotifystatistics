@@ -1,0 +1,29 @@
+button, input { 
+    display: inline-block !important;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header button img {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.container .header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    padding: 0px;
+}
+
+.container .header button p {
+    display: inline-block;
+}
