@@ -15,7 +15,7 @@
 		} else {
 			// Redirect to Spotify
 			const client_id = '7f1c1bd62e4f4bfe9b604b7dd8dcc672';
-			const redirect_uri = 'http:%2F%2Flocalhost:5000'; //https:%2F%2Fsvelte-spotifystatistics.netlify.app
+			const redirect_uri = 'https:%2F%2Fsvelte-spotifystatistics.netlify.app';
 			const state = uuidv4();
 			window.location.href = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${redirect_uri}&state=${state}&scope=user-top-read&show_dialog=true`;
 		}
