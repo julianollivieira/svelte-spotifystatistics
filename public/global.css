@@ -27,3 +27,44 @@ button, input {
 .container .header button p {
     display: inline-block;
 }
+
+.container .lists {
+    display: flex;
+}
+
+.container .lists .list {
+    margin: 20px;
+}
+
+.container .lists .list h1 {
+    text-align: center;
+}
+
+.container .lists .list table tbody tr td img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+
+.container .lists .list table tbody tr {
+    height: 75px;
+}
+.container .lists .list table tbody tr td {
+    height: 75px;
+}
+
+.container .lists .list table thead tr th:last-child { width: 75px; }
+.container .lists .list table tbody tr td:last-child { width: 75px; }
+.container .lists .list table thead tr th:first-child {
+    width: 25px;
+    text-align: center;
+}
+.container .lists .list table tbody tr td:first-child {
+    width: 25px;
+    text-align: center;
+}
+
+.container .lists .list table tbody tr td {
+    display: table-cell;
+    vertical-align: middle;
+}
