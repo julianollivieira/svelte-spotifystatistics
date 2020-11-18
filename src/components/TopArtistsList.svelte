@@ -3,7 +3,7 @@
     let artists = [];
     let errors = [];
 
-    axios.get('https://api.spotify.com/v1/me/top/artists', {
+    axios.get('https://api.spotify.com/v1/me/top/artists?time_range=long_term&limit=50', {
         headers: {
             'Content-Type': 'applications/json',
             'Authorization': `Bearer ${access_token}`
