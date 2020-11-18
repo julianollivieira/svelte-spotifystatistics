@@ -11,13 +11,13 @@
 <div class="container">
 	<div class="header">
 		<h1>Spotify Statistics</h1>
-		<SpotifyLoginButton/>
+		<SpotifyLoginButton { access_token } />
 	</div>
 	<hr>
 	<div class="lists">
 		{#if access_token}
-			<TopArtistsList {access_token} />
-			<TopTracksList {access_token} />
+			<TopArtistsList { access_token } />
+			<TopTracksList { access_token } />
 		{/if}
 	</div>
 </div>
